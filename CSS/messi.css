@@ -1,0 +1,65 @@
+@font-face {
+    font-family: FuenteMessi;
+    src: url(../Fuentes/ElMessiri-Bold.ttf);
+}
+
+body {
+    background-repeat: repeat;
+    background-image: url(../Media/212835.jpg);
+}
+
+header {
+    color: white;
+    width: 100%;
+    font-family: FuenteMessi;
+    font-size: large;
+    text-align: center;
+    display: block;
+    background-color: blue;
+
+
+}
+
+.article {
+    font-family: FuenteMessi;
+    font-size: large;
+    height: 100px;
+    color: black;
+}
+p {
+    background-color: gray;
+}
+#articulo1 {
+    float: left;
+    width: 70%;
+}
+
+#articulo2 {
+    float: right;
+    width: 30%;
+}
+
+img {
+    padding-top: 20px;
+    width: 500px;
+    height: 650px;
+}
+
+ul {
+    background-color: gray;
+}
+
+footer {
+    width: 99%;
+    font-family: FuenteMessi;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    border: dotted;
+}
+
+#footer {
+    background-color: white;
+}
+
